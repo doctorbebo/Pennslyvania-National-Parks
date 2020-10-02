@@ -8,8 +8,9 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PennslyvaniaNationalParks.Models;
 
-namespace Pennslyvania_National_Parks
+namespace PennslyvaniaNationalParks
 {
     public class Startup
     {
@@ -24,6 +25,9 @@ namespace Pennslyvania_National_Parks
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.Add(new ServiceDescriptor(typeof(ParksContext), new ParksContext(Configuration.GetConnectionString("DefaultConnection"))));
+            SeedData seedData = new SeedData(Configuration.GetConnectionString("DefaultConnection"));
+            seedData.RetrieveParkData();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Http;
 
-namespace Pennslyvania_National_Parks.Models
+namespace PennslyvaniaNationalParks.Models
 {
     public class Parks
     {

@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Pennslyvania_National_Parks.Models
+namespace PennslyvaniaNationalParks.Models
 {
     public class ParksContext
     {
