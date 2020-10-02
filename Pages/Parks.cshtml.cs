@@ -4,22 +4,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
+using PennslyvaniaNationalParks.Models;
 
 namespace PennslyvaniaNationalParks.Pages
 {
-    public class IndexModel : PageModel
+    public class ParksModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
-
-        public IndexModel(ILogger<IndexModel> logger)
-        {
-            _logger = logger;
-        }
-
+        public List<Models.Parks> paParks;
         public void OnGet()
         {
-
+            ParksContext context = HttpContext.RequestServices.GetService(typeof(ParksContext)) as ParksContext;
+            paParks = context.GetAllParks();
         }
     }
 }

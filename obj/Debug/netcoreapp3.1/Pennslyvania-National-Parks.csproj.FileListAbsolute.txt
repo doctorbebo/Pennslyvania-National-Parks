@@ -53,7 +53,7 @@
 /Users/Byron/Projects/Pennslyvania-National-Parks/Pennslyvania-National-Parks/obj/Debug/netcoreapp3.1/Pennslyvania-National-Parks.RazorCoreGenerate.cache
 /Users/Byron/Projects/Pennslyvania-National-Parks/Pennslyvania-National-Parks/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
 /Users/Byron/Projects/Pennslyvania-National-Parks/Pennslyvania-National-Parks/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
-/Users/Byron/Projects/Pennslyvania-National-Parks/Pennslyvania-National-Parks/obj/Debug/netcoreapp3.1/Razor/Pages/Privacy.cshtml.g.cs
+/Users/Byron/Projects/Pennslyvania-National-Parks/Pennslyvania-National-Parks/obj/Debug/netcoreapp3.1/Razor/Pages/Parks.cshtml.g.cs
 /Users/Byron/Projects/Pennslyvania-National-Parks/Pennslyvania-National-Parks/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
 /Users/Byron/Projects/Pennslyvania-National-Parks/Pennslyvania-National-Parks/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
 /Users/Byron/Projects/Pennslyvania-National-Parks/Pennslyvania-National-Parks/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs

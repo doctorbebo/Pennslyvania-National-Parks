@@ -1,0 +1,33 @@
+﻿@page
+@model PennslyvaniaNationalParks.Pages.ParksModel
+@{
+}
+
+@foreach (var item in Model.paParks)
+{
+    <div class="container" id="@item.ID">
+        <div class="row">
+            <h3>@item.Name</h3>
+        </div>
+        <div class="row">
+            <p>@item.Description</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col">
+                        <a href="@item.Url">Website</a>
+                    </div>
+                    <div class="col">
+                        <a href="tel:@item.PhoneNumber">@item.PhoneNumber</a>
+                    </div>
+                    <div class="col">
+                        <a href="mailto:@item.Email">@item.Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+    <hr />
+}
